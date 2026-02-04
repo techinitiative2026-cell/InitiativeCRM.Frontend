@@ -44,7 +44,6 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
         }`}
       >
         <div className="text-3xl text-center  font-bold p-4 border-b border-gray-800">
-          INITIATIVE CRM
         </div>
         <nav className="flex-1 p-4">
           <ul className="space-y-2">

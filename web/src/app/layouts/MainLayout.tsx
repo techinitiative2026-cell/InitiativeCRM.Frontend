@@ -14,7 +14,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
     <div className="flex h-screen bg-gray-50">
       {/* Sidebar component */}
-      <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+      {/* <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} /> */}
 
       {/* Main content */}
       <div className="flex-1 flex flex-col overflow-hidden">
@@ -76,7 +76,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
 
 
         {/* Page content */}
-        <main className="flex-1 p-6 overflow-y-auto bg-gray-50 min-h-screen">
+        <main className="font-lato flex-1 p-6 overflow-y-auto bg-gray-50 min-h-screen">
           {children}
         </main>
       </div>

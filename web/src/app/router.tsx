@@ -11,7 +11,7 @@ export const AppRoutes = () => {
       {/* Layout route */}
         
         {/* Nested routes */}
-        <Route path="/kriisha" element={<LeadsListPage/> }></Route>
+        <Route path="/heatmap" element={<HeatmapLayout/> }></Route>
         <Route path="/leads/:id" element={<LeadDetailsPage />} />
 
         {/* Protected route */}

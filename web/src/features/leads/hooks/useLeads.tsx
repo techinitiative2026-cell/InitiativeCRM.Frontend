@@ -2,10 +2,6 @@ import { useQuery } from "@tanstack/react-query";
 import { getMockLeads, getLeadById } from "../api";
 import type { Lead } from "../types";
 
-
-
-
-
 // Fetch all leads
 export const useLeads = () => {
   return useQuery<Lead[], Error>({
