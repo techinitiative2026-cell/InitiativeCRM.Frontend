@@ -2,9 +2,7 @@
 import tailwindcssForms from '@tailwindcss/forms'; // example plugin
 import tailwindcss from '@tailwindcss/vite';
 
-body {
-  font-family: 'Lato', sans-serif;
-}
+  
 
 export default {
   content: [
